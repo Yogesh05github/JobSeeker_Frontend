@@ -13,7 +13,7 @@ const Jobs = () => {
 
   useEffect(()=>{
     try {
-        axios.get("http://localhost:8000/api/v1/job/getAll" , 
+        axios.get("https://job-seeker-backend.vercel.app/api/v1/job/getAll" , 
         {withCredentials : true }
         ).then((res) => {
           setJobs(res.data)
