@@ -18,7 +18,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://job-seeker-backend.vercel.app/api/v1/user/login",
+        "https://jobseeker-backend-you4.onrender.com/api/v1/user/login",
         { email, password, role },
         {
           headers: {

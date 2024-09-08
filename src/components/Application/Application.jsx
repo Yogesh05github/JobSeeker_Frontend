@@ -41,7 +41,7 @@ const Application = () => {
     formData.append("jobId", id);
 
     try{
-      const {data} = await axios.post("https://job-seeker-backend.vercel.app/api/v1/application/post" , formData , 
+      const {data} = await axios.post("https://jobseeker-backend-you4.onrender.com/api/v1/application/post" , formData , 
       {
               withCredentials: true, 
               "Content-Type" : "multipart/form-data"

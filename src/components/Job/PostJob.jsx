@@ -21,7 +21,7 @@ const PostJob = () => {
     e.preventDefault();
      await axios
       .post(
-        "https://job-seeker-backend.vercel.app/api/v1/job/post",
+        "https://jobseeker-backend-you4.onrender.com/api/v1/job/post",
         fixedSalary.length !== 0
           ? {
               title,

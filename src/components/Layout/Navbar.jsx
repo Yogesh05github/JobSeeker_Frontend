@@ -14,7 +14,7 @@ const Navbar = () => {
     try {
     //  toast.success(user.)
       const response = await axios.get(
-        "https://job-seeker-backend.vercel.app/api/v1/user/logout",
+        "https://jobseeker-backend-you4.onrender.com/api/v1/user/logout",
         {
           withCredentials: true,
         }
